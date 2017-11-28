@@ -86,4 +86,4 @@ class MyTest(unittest.TestCase):
 	def test_combining_method(self):
 		combined_text = self.test_instance.combining_method()
 		total_text = "\n\t\tThe following list represents the total number of invisible unicorns in classroom.\n\t\t_________\n After change: \n\n\t\tThe following list ([1, 2, 3, 4]) represents the total number of invisible unicorns in classroom.\n\t\t0 O 0 O 0 O 0 O 0 O 0 O7.48331477355\nTo seek the holy grail\n2218.4739851"
-self.assertEqual(total_text, combined_text)
+		self.assertEqual(total_text, combined_text)
